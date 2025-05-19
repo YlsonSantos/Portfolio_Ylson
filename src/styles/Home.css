@@ -1,22 +1,25 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  background-color: white;
-  min-height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.home {
+  margin-top: 100px;
+  height: calc(100vh - 100px); /* ocupa o restante da tela */
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  margin-left: 0;
 }
+
 
 .home {
   margin-top: 98px; 
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 1950px;
+  width: 100%;
   height: 890px;
-  margin-left: -50px;
   overflow: hidden;
   border-bottom: 1px solid black;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
