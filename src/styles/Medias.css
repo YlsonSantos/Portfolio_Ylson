@@ -470,6 +470,11 @@
 }
 
 @media (max-width: 480px) {
+  .modal-conteudo {
+    height: 650px !important;
+    width: 370px !important;
+  }
+
   .terminal-window {
     width: 92vw !important;
     border-radius: 4px !important;
@@ -569,7 +574,7 @@
     font-size: 1rem !important;
     margin-bottom: 8px;
   }
-    .side.left h2 {
+  .side.left h2 {
     margin-right: 45px;
   }
 
