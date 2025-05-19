@@ -39,7 +39,6 @@
   }
 }
 
-
 /*Footer*/
 @media (max-width: 768px) {
   .footer-text {
@@ -64,7 +63,6 @@
     right: 0.7rem;
   }
 }
-
 
 /* Contato */
 @media (max-width: 830px) {
@@ -244,11 +242,10 @@
 @media (max-width: 480px) {
   .foto1,
   .foto2,
-  .foto3{
+  .foto3 {
     width: 330px !important;
   }
 }
-
 
 /* Experiencias */
 @media (max-width: 1030px) {
@@ -263,7 +260,7 @@
   }
 
   .card-curso {
-    width: 45% !important; 
+    width: 45% !important;
     max-width: none !important;
     margin: 0 auto !important;
   }
@@ -301,7 +298,7 @@
 }
 
 @media (max-width: 768px) {
-    .sessao.skills {
+  .sessao.skills {
     width: 95% !important;
   }
   .sessao.skills .skills-container {
@@ -375,7 +372,7 @@
 }
 
 @media (max-width: 768px) {
-  .sessao.projetos{
+  .sessao.projetos {
     width: 95%;
   }
   .projetos-container {
@@ -496,3 +493,83 @@
 
 /* Home */
 
+@media (max-width: 1280px) {
+  .home {
+    height: 1210px !important;
+  }
+  .center-image {
+    width: 750px !important;
+  }
+  .side {
+    font-size: 1rem;
+    padding: 0.6rem 0.4rem;
+    background-size: 80% auto;
+    width: 100% !important;
+  }
+  .side h2 {
+    font-size: 2rem !important;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .side {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+    background-size: contain;
+    align-items: center;
+    white-space: normal;
+    text-align: center;
+    transition: none !important;
+    filter: none;
+  }
+
+  .side h2 {
+    margin-bottom: 10px;
+    font-size: 1.4rem !important;
+  }
+
+  .side.left h2 {
+    margin-right: 45px;
+  }
+
+  .side.right h2 {
+    margin-left: 85px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    height: 748px !important;
+  }
+  .center-image {
+    margin-top: 35px;
+    width: 400px !important;
+  }
+  .side {
+    font-size: 1rem;
+    padding: 0.6rem 0.4rem;
+    background-size: 80% auto;
+    width: 100% !important;
+    transition: none !important;
+    filter: none;
+  }
+  .side h2 {
+    font-size: 1rem !important;
+    margin-bottom: 8px;
+  }
+    .side.left h2 {
+    margin-right: 45px;
+  }
+
+  .side.right h2 {
+    margin-left: 25px;
+  }
+}
