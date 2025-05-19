@@ -1,0 +1,113 @@
+
+.sobre-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5deb3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  margin-top: -70px;
+  color: #f5f5dc;
+}
+
+canvas#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+.conteudo {
+  position: relative;
+  z-index: 1;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  color: #5c4631;
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 20px black;
+}
+
+.texto {
+  background-color: rgba(255, 250, 240, 0.95);
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(255, 165, 0, 0.5);
+  transition: transform 0.3s ease;
+  text-align: justify;
+  margin-bottom: 40px;
+  line-height: 2.3;
+  letter-spacing: 0.05em;
+  color: #5c4631;
+}
+
+.texto.flex-container {
+  margin-bottom: 0;
+}
+
+.texto:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 35px rgba(255, 165, 0, 0.8);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.flex-container-reverse {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.texto-principal {
+  flex: 1;
+  color: #6b4c26;
+}
+
+.foto1,
+.foto2,
+.foto3 {
+  border-radius: 15px;
+  border: 3px solid #deb887;
+  box-shadow: 0 0 15px rgba(82, 53, 0, 0.5);
+  object-fit: cover;
+  margin: 0;
+}
+
+.foto1 {
+  width: 270px;
+  height: 270px;
+  order: 2;
+}
+
+.foto2 {
+  width: 400px;
+  height: 300px;
+  object-position: top;
+  order: 1;
+}
+
+.foto3 {
+  width: 350px;
+  height: 300px;
+  order: 2;
+}
