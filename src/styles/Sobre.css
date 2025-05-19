@@ -6,9 +6,9 @@
   background-color: #f5deb3;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
-  margin-top: -70px;
-  color: #f5f5dc;
+  color: #f5f5dc; 
 }
+
 
 canvas#matrix {
   position: fixed;

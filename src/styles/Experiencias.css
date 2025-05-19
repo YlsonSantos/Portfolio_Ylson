@@ -10,6 +10,7 @@ html {
 
 .experiencias-wrapper {
   width: 100%;
+  margin-top: 100px; 
 }
 
 .sessao {
@@ -22,7 +23,7 @@ html {
 }
 
 .sessao.formacao {
-  width: 1825px;
+  width: 100%;
   background: url("/dna.png") no-repeat left -150%,
     url("/imagem-canto.png") no-repeat right bottom,
     wheat; 
