@@ -130,7 +130,6 @@ html {
   border-bottom: 1px solid black;
   box-shadow: 0 12px 5px -4px rgba(0, 0, 0, 0.1);
   position: relative;
-  z-index: 4;
 }
 
 .sessao.skills .skills-container {
