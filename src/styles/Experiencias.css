@@ -10,7 +10,7 @@ html {
 
 .experiencias-wrapper {
   width: 100%;
-  margin-top: 100px; 
+  margin-top: 80px; 
 }
 
 .sessao {
@@ -250,7 +250,7 @@ html {
 .modal-conteudo {
   background: white;
   width: 1150px;
-  height: 700px;
+  height: 800px;
   max-height: 90vh;
   display: flex;
   border-radius: 10px;

@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-top: 100px; 
+  padding-top: 80px; 
 }
 
 .redes-container {
@@ -103,7 +103,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 439px;
+  min-height: 459px;
   padding: 2rem 1rem;
   background: white url("/Computadores.png") no-repeat 95% bottom;
   background-size: 40%;

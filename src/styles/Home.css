@@ -1,6 +1,6 @@
 .home {
   margin-top: 100px;
-  height: calc(100vh - 100px); /* ocupa o restante da tela */
+  height: calc(100vh - 100px); 
   width: 100vw;
   position: relative;
   display: flex;
@@ -14,7 +14,7 @@
 
 
 .home {
-  margin-top: 98px; 
+  margin-top: 82px; 
   position: relative;
   display: flex;
   flex-direction: row;
