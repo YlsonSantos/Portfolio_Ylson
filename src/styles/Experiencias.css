@@ -250,8 +250,7 @@ html {
 .modal-conteudo {
   background: white;
   width: 1150px;
-  height: 800px;
-  max-height: 90vh;
+  height: 750px;
   display: flex;
   border-radius: 10px;
   overflow: hidden;
